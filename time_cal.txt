@@ -1,0 +1,524 @@
+2023-06-13 07:04:43,587 - segment_anything.modeling.sam - INFO - 这是一条日志消息
+2023-06-13 07:17:55,462 - segment_anything.modeling.sam - INFO - 这是一条日志消息
+2023-06-13 07:19:52,005 - segment_anything.predictor - INFO - 这是一条日志消息
+
+2023-06-13 07:32:01,061 - segment_anything.modeling.sam - INFO - 这是一条日志消息
+2023-06-13 07:32:27,832 - segment_anything.predictor - INFO - 这是一条日志消息
+2023-06-13 07:38:43,120 - segment_anything.predictor - INFO - the time of image embedding is 232.19seconds!
+2023-06-13 07:40:06,373 - segment_anything.predictor - INFO - the time of image embedding is 19.18seconds!
+
+2023-06-13 07:40:26,511 - segment_anything.modeling.sam - INFO - 这是一条日志消息
+2023-06-13 07:40:29,073 - segment_anything.predictor - INFO - 这是一条日志消息
+2023-06-13 07:40:30,532 - segment_anything.predictor - INFO - the time of image embedding is 1.43seconds!
+2023-06-13 07:40:30,946 - segment_anything.predictor - INFO - the time of image embedding is 0.39seconds!
+
+2023-06-13 07:48:13,031 - segment_anything.modeling.sam - INFO - 这是一条日志消息
+2023-06-13 07:48:15,422 - segment_anything.predictor - INFO - 这是一条日志消息
+2023-06-13 07:48:16,832 - segment_anything.predictor - INFO - the time of image embedding is 1.39seconds!
+2023-06-13 07:48:17,258 - segment_anything.predictor - INFO - the time of image embedding is 0.39seconds!
+
+2023-06-13 08:05:30,555 - segment_anything.modeling.sam - INFO - 这是一条日志消息,似乎推理阶段没有经过sam类的前向函数！
+2023-06-13 08:05:32,797 - segment_anything.predictor - INFO - 这是一条日志消息
+2023-06-13 08:05:34,239 - segment_anything.predictor - INFO - the time of image embedding in sampredictor is 1.42seconds!
+2023-06-13 08:05:34,703 - segment_anything.predictor - INFO - the time of image embedding in sampredictor is 0.40seconds!
+
+2023-06-13 08:09:36,134 - segment_anything.modeling.sam - INFO - 这是一条日志消息,似乎推理阶段没有经过sam类的前向函数！
+2023-06-13 08:09:38,290 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-13 08:09:39,753 - segment_anything.predictor - INFO - the time of image embedding in sampredictor is 1.44seconds!
+2023-06-13 08:09:40,168 - segment_anything.predictor - INFO - the time of image embedding in sampredictor is 0.39seconds!
+
+2023-06-13 09:09:52,801 - segment_anything.modeling.sam - INFO - 这是一条日志消息,似乎推理阶段没有经过sam类的前向函数！
+2023-06-13 09:10:37,525 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-13 11:27:02,852 - segment_anything.predictor - INFO - the time of image embedding in sampredictor is 313.47seconds!
+2023-06-13 11:33:09,371 - segment_anything.predictor - INFO - the time of image embedding in sampredictor is 27.47seconds!
+
+2023-06-13 11:34:18,613 - segment_anything.modeling.sam - INFO - 这是一条日志消息,似乎推理阶段没有经过sam类的前向函数！
+2023-06-13 11:34:22,604 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-13 11:34:24,161 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 1.53seconds!
+
+2023-06-13 11:34:54,396 - segment_anything.modeling.sam - INFO - 这是一条日志消息,似乎推理阶段没有经过sam类的前向函数！
+2023-06-13 11:34:56,823 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-13 11:34:58,375 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 1.53seconds!
+2023-06-13 11:34:58,787 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 0.39seconds!
+
+2023-06-13 12:49:08,898 - segment_anything.modeling.sam - INFO - 这是一条日志消息,似乎推理阶段没有经过sam类的前向函数！
+2023-06-13 13:09:24,708 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-13 13:10:44,728 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 16.05seconds!
+2023-06-13 13:14:53,113 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 83.93seconds!
+2023-06-13 13:19:18,724 - segment_anything.modeling.sam - INFO - 这是一条日志消息,似乎推理阶段没有经过sam类的前向函数！
+2023-06-13 13:19:51,656 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-13 13:34:57,119 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 1.50seconds!
+2023-06-13 13:35:19,025 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 0.44seconds!
+2023-06-13 13:57:08,803 - segment_anything.modeling.sam - INFO - 这是一条日志消息,似乎推理阶段没有经过sam类的前向函数！
+2023-06-13 13:58:11,602 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-13 14:08:41,783 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 43.41seconds!
+2023-06-13 14:12:59,835 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 205.30seconds!
+
+
+备注：正常的图片编码过程是1.5秒左右的，后面短时间的打印结果是因为调用type(predictor.set_image(image))之前的已经计算过了，因此更快一些！
+在程序中，已经执行过的语句再次执行会更快的主要原因是缓存机制的存在。
+当程序第一次执行某个语句时，计算机需要将该语句从内存中加载到CPU缓存中，然后进行计算。第二次执行相同的语句时，该语句已经在CPU缓存中，不需要再次从内存中加载，这样可以减少内存访问的时间，提高执行速度。
+此外，现代计算机中还有很多优化技术，如指令预取、分支预测等，这些技术也可以提高程序的执行效率。
+需要注意的是，如果程序中存在数据依赖关系或者程序本身存在较大的开销，那么即使使用了缓存等优化技术，再次执行的时间也可能不会有明显的减少。
+
+2023-06-13 14:13:19,900 - segment_anything.modeling.sam - INFO - 这是一条日志消息,似乎推理阶段没有经过sam类的前向函数！
+2023-06-13 14:13:22,154 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-13 14:13:23,636 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 1.46seconds!
+2023-06-13 14:13:24,064 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 0.40seconds!
+2023-06-13 14:49:46,201 - segment_anything.modeling.sam - INFO - 这是一条日志消息,似乎推理阶段没有经过sam类的前向函数！
+2023-06-13 14:49:48,641 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-13 14:49:50,063 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 1.39seconds!
+2023-06-13 15:07:04,235 - segment_anything.modeling.sam - INFO - 这是一条日志消息,似乎推理阶段没有经过sam类的前向函数！
+2023-06-13 15:07:06,660 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-13 15:07:08,347 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 1.62seconds!
+2023-06-13 15:07:08,450 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-13 15:07:08,461 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-13 15:07:08,462 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+
+
+2023.06.14
+2023-06-14 02:59:07,991 - segment_anything.modeling.sam - INFO - 这是一条日志消息,似乎推理阶段没有经过sam类的前向函数！
+2023-06-14 02:59:12,225 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-14 02:59:13,859 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 1.60seconds!
+2023-06-14 02:59:13,930 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-14 02:59:13,936 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-14 02:59:13,937 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 02:59:13,938 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-14 02:59:13,943 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.00seconds!
+2023-06-14 02:59:13,943 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 02:59:13,980 - segment_anything.modeling.sam - INFO - 开始执行 sam 前向函数
+2023-06-14 02:59:14,753 - segment_anything.modeling.sam - INFO - the time of image embedding in sam forward is 0.77seconds!
+2023-06-14 02:59:14,753 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-14 02:59:14,786 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.03seconds!
+2023-06-14 02:59:14,786 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-14 02:59:14,787 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-14 02:59:14,791 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.00seconds!
+2023-06-14 02:59:14,791 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-14 03:03:40,136 - segment_anything.modeling.sam - INFO - 这是一条日志消息,似乎推理阶段没有经过sam类的前向函数！
+2023-06-14 03:03:41,484 - segment_anything.modeling.sam - INFO - 开始执行 sam 前向函数
+2023-06-14 03:03:57,608 - segment_anything.modeling.sam - INFO - 这是一条日志消息,似乎推理阶段没有经过sam类的前向函数！
+2023-06-14 03:03:58,992 - segment_anything.modeling.sam - INFO - 开始执行 sam 前向函数
+2023-06-14 03:04:10,727 - segment_anything.modeling.sam - INFO - the time of image embedding in sam forward is 11.73seconds!
+2023-06-14 03:04:10,730 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-14 03:04:10,911 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.18seconds!
+2023-06-14 03:04:10,913 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-14 03:04:10,914 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-14 03:04:11,036 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.12seconds!
+2023-06-14 03:04:11,039 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+
+
+2023-06-14 03:06:01,623 - segment_anything.modeling.sam - INFO - 这是一条日志消息,似乎推理阶段没有经过sam类的前向函数！
+2023-06-14 03:06:02,939 - segment_anything.modeling.sam - INFO - 开始执行 sam 前向函数(2张图片CPU)
+2023-06-14 03:06:14,115 - segment_anything.modeling.sam - INFO - the time of image embedding in sam forward is 11.17seconds!
+2023-06-14 03:06:14,119 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-14 03:06:14,321 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.20seconds!
+2023-06-14 03:06:14,324 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-14 03:06:14,325 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-14 03:06:14,496 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.13seconds!
+2023-06-14 03:06:14,497 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+附录打印的时间信息：
+the time of image embedding in sam forward is 11.168816089630127 seconds!
+the time of prompt encoder in sam forward is 0.0021016597747802734 seconds!
+the time of mask decode in sam forward is 0.2017822265625 seconds!
+the time of mask postprocess in sam forward is 0.0018982887268066406 seconds!
+the time of prompt encoder in sam forward is 0.0003173351287841797 seconds!
+the time of mask decode in sam forward is 0.12588095664978027 seconds!
+2023-06-14 03:21:33,054 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-14 03:21:34,578 - segment_anything.modeling.sam - INFO - 开始执行 sam 前向函数(1张图片CPU)
+2023-06-14 03:21:40,205 - segment_anything.modeling.sam - INFO - the time of image embedding in sam forward is 5.62seconds!
+2023-06-14 03:21:40,206 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-14 03:21:40,403 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.20seconds!
+2023-06-14 03:21:40,404 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-14 03:22:41,246 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-14 03:22:42,500 - segment_anything.modeling.sam - INFO - 开始执行 sam 前向函数(1张图片CPU)
+2023-06-14 03:22:48,142 - segment_anything.modeling.sam - INFO - the time of image embedding in sam forward is 5.64seconds!
+2023-06-14 03:22:48,144 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-14 03:22:48,403 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.26seconds!
+2023-06-14 03:22:48,405 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+
+2023-06-14 03:25:13,724 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-14 03:25:16,354 - segment_anything.modeling.sam - INFO - 开始执行 sam 前向函数(1张图片GPU)
+2023-06-14 03:25:18,052 - segment_anything.modeling.sam - INFO - the time of image embedding in sam forward is 1.69seconds!
+2023-06-14 03:25:18,054 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-14 03:25:18,079 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.02seconds!
+2023-06-14 03:25:18,080 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-14 03:25:44,104 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-14 03:25:46,724 - segment_anything.modeling.sam - INFO - 开始执行 sam 前向函数(2张图片GPU)
+2023-06-14 03:25:48,715 - segment_anything.modeling.sam - INFO - the time of image embedding in sam forward is 1.99seconds!
+2023-06-14 03:25:48,719 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-14 03:25:48,752 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.03seconds!
+2023-06-14 03:25:48,753 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-14 03:25:48,754 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-14 03:25:48,760 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.01seconds!
+2023-06-14 03:25:48,760 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-14 03:26:09,851 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-14 03:26:12,421 - segment_anything.modeling.sam - INFO - 开始执行 sam 前向函数(1张图片GPU)
+2023-06-14 03:26:14,063 - segment_anything.modeling.sam - INFO - the time of image embedding in sam forward is 1.64seconds!
+2023-06-14 03:26:14,065 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-14 03:26:14,082 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.02seconds!
+2023-06-14 03:26:14,082 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-14 04:08:28,878 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-14 04:09:41,102 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-14 04:09:43,456 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-14 04:09:44,993 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 1.51seconds!
+2023-06-14 04:09:45,017 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.01seconds!
+2023-06-14 04:09:45,044 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.03seconds!
+2023-06-14 04:09:45,050 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.01seconds!
+2023-06-14 04:09:45,169 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-14 04:09:45,176 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-14 04:09:45,176 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 04:09:45,322 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-14 04:09:45,329 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-14 04:09:45,329 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 04:09:45,434 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-14 04:09:45,439 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-14 04:09:45,439 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 04:09:45,527 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-14 04:09:45,532 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.00seconds!
+2023-06-14 04:09:45,532 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 04:09:45,674 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-14 04:09:45,679 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.00seconds!
+2023-06-14 04:09:45,679 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 04:09:45,817 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-14 04:09:45,822 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.00seconds!
+2023-06-14 04:09:45,822 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 04:09:45,970 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-14 04:09:45,975 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.00seconds!
+2023-06-14 04:09:45,975 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 04:09:46,129 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-14 04:09:46,168 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.00seconds!
+2023-06-14 04:09:46,211 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 04:09:46,328 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-14 04:09:46,338 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-14 04:09:46,339 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 04:09:46,481 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-14 04:09:46,486 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-14 04:09:46,486 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 04:09:46,615 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-14 04:09:46,620 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.00seconds!
+2023-06-14 04:09:46,620 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 04:09:46,830 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-14 04:09:46,835 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.00seconds!
+2023-06-14 04:09:46,835 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 04:09:47,064 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-14 04:09:47,069 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.00seconds!
+2023-06-14 04:09:47,069 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 04:09:47,315 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-14 04:09:47,320 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.00seconds!
+2023-06-14 04:09:47,321 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 04:09:47,592 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-14 04:09:47,598 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.00seconds!
+2023-06-14 04:09:47,598 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 05:51:20,929 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-14 05:54:28,346 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-14 07:39:47,139 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 27.51seconds!
+2023-06-14 07:47:13,439 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 129.48seconds!
+2023-06-14 08:16:16,043 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 1741.49seconds!
+2023-06-14 08:16:16,056 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.01seconds!
+2023-06-14 08:16:49,734 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 33.08seconds!
+2023-06-14 08:17:07,433 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 17.70seconds!
+2023-06-14 08:17:07,435 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 08:17:10,317 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 2.50seconds!
+2023-06-14 08:17:13,596 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 3.28seconds!
+2023-06-14 08:17:13,597 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 08:17:15,805 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 1.48seconds!
+2023-06-14 08:17:20,954 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 5.15seconds!
+2023-06-14 08:17:20,956 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 08:17:31,281 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 9.78seconds!
+2023-06-14 08:17:47,781 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 16.50seconds!
+2023-06-14 08:17:47,782 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 08:17:52,450 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 3.74seconds!
+2023-06-14 08:17:55,971 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 3.52seconds!
+2023-06-14 08:17:55,972 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 08:18:24,109 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 26.89seconds!
+2023-06-14 08:18:27,589 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 3.48seconds!
+2023-06-14 08:18:27,590 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 08:18:31,123 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 2.38seconds!
+2023-06-14 08:18:33,401 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 2.28seconds!
+2023-06-14 08:18:33,402 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 08:26:47,553 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 492.92seconds!
+2023-06-14 08:26:50,638 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 3.08seconds!
+2023-06-14 08:26:50,639 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 08:26:54,507 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 2.94seconds!
+2023-06-14 08:26:57,608 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 3.10seconds!
+2023-06-14 08:26:57,608 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 08:27:02,558 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 4.43seconds!
+2023-06-14 08:27:04,705 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 2.15seconds!
+2023-06-14 08:27:04,705 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 08:27:08,731 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 3.29seconds!
+2023-06-14 08:27:13,043 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 4.31seconds!
+2023-06-14 08:27:13,044 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 08:27:17,954 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 3.45seconds!
+2023-06-14 08:27:20,988 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 3.03seconds!
+2023-06-14 08:27:20,989 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-14 08:27:27,930 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 5.73seconds!
+2023-06-14 08:32:34,884 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 290.26seconds!
+2023-06-14 08:33:12,700 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 11.64seconds!
+2023-06-14 08:37:13,560 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 186.85seconds!
+2023-06-14 09:33:04,934 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 3349.03seconds!
+2023-06-14 09:33:25,201 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 7.90seconds!
+2023-06-14 09:40:37,137 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 407.80seconds!
+2023-06-14 10:48:58,176 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 4095.79seconds!
+2023-06-14 10:49:24,768 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 23.15seconds!
+
+2023-06-15 10:49:33,082 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-15 10:50:11,653 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-15 10:50:14,183 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 2.50seconds!
+2023-06-15 10:50:14,200 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-15 10:50:14,210 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-15 10:50:14,212 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-15 10:50:14,301 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-15 10:50:14,748 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.02seconds!
+2023-06-15 10:50:14,788 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-15 10:50:14,879 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-15 10:50:14,885 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-15 10:50:14,885 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-15 10:50:14,985 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-15 10:50:15,325 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-15 10:50:15,341 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-15 10:50:15,458 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-15 10:50:15,463 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-15 10:50:15,463 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-15 10:50:15,692 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-15 10:50:15,810 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.02seconds!
+2023-06-15 10:50:16,031 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-15 10:50:16,262 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-15 10:50:16,269 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-15 10:50:16,435 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-15 10:50:16,636 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-15 10:50:16,642 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-15 10:50:16,642 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-15 10:50:16,802 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-15 10:50:16,808 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-15 10:50:16,869 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-15 10:50:17,084 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-15 10:50:17,090 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-15 10:50:17,091 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-15 10:50:17,237 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-15 10:50:17,478 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.02seconds!
+2023-06-15 10:50:17,579 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-15 10:50:17,839 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-15 10:50:17,855 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-15 10:50:17,913 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-15 10:50:18,130 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-15 10:50:18,136 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-15 10:50:18,136 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-15 10:50:18,771 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-15 10:50:18,778 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-15 10:50:18,778 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-15 10:50:19,159 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-15 10:50:19,165 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-15 10:50:19,165 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-15 10:50:19,462 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-15 10:50:19,468 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-15 10:50:19,468 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-15 11:54:07,020 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-15 13:07:40,615 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-15 14:16:51,012 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 72.33seconds!
+2023-06-15 14:33:41,268 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 366.98seconds!
+2023-06-15 14:58:41,064 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 1460.20seconds!
+2023-06-16 01:02:58,313 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 36253.07seconds!
+2023-06-17 13:26:23,824 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 87.44seconds!
+2023-06-17 13:42:36,613 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 967.91seconds!
+2023-06-17 13:43:02,192 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 9.42seconds!
+2023-06-18 08:09:52,777 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 4430.36seconds!
+2023-06-18 08:11:29,090 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 94.04seconds!
+2023-06-18 08:11:46,418 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 15.23seconds!
+2023-06-18 08:16:21,586 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 08:16:21,596 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 08:16:21,597 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 08:16:21,940 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 08:16:21,953 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 08:16:22,008 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 08:16:22,967 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 08:16:22,992 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.02seconds!
+2023-06-18 08:16:22,993 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 08:16:23,750 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 08:16:23,758 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 08:16:23,759 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 08:16:24,574 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 08:16:24,583 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 08:16:24,583 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 08:16:25,525 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 08:16:25,550 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.02seconds!
+2023-06-18 08:16:25,551 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 08:16:26,754 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 08:16:26,763 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 08:16:26,764 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 08:16:27,402 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 08:16:27,412 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 08:16:27,412 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 08:16:28,126 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 08:16:28,136 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 08:16:28,136 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 08:16:29,758 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 08:16:29,767 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 08:16:29,767 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 08:16:31,415 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 08:16:31,423 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 08:16:31,424 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 08:16:33,148 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 08:16:33,174 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.02seconds!
+2023-06-18 08:16:33,175 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 08:16:35,032 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 08:16:35,059 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.03seconds!
+2023-06-18 08:16:35,061 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 08:44:52,273 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-18 09:06:58,052 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-18 09:20:16,395 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 696.04seconds!
+
+
+
+2023-06-18 13:00:45,963 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-18 13:00:50,990 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-18 13:00:52,718 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 1.70seconds!
+2023-06-18 13:00:52,738 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.01seconds!
+2023-06-18 13:00:52,759 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.02seconds!
+2023-06-18 13:00:52,764 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.01seconds!
+2023-06-18 13:00:52,876 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 13:00:52,956 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 13:00:53,015 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 13:00:53,145 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 13:00:53,153 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 13:00:53,153 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 13:00:53,260 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 13:00:53,266 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 13:00:53,267 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 13:00:53,357 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 13:00:53,362 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 13:00:53,363 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 13:00:53,513 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 13:00:53,572 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 13:00:53,646 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 13:00:53,758 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 13:00:53,764 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 13:00:53,764 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 13:00:53,993 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 13:00:53,999 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 13:00:53,999 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 13:00:54,174 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 13:00:54,201 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 13:00:54,255 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 13:00:54,379 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 13:00:54,384 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 13:00:54,385 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 13:00:54,517 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 13:00:54,523 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 13:00:54,523 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 13:00:54,656 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 13:00:54,662 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 13:00:54,662 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 13:00:54,879 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 13:00:54,898 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 13:00:54,964 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 13:00:55,168 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 13:00:55,174 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 13:00:55,174 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 13:00:55,429 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 13:00:55,435 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 13:00:55,435 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 13:00:55,793 - segment_anything.predictor - INFO - the time of prompt encoder in sampredictor is 0.00seconds!
+2023-06-18 13:00:55,799 - segment_anything.predictor - INFO - the time of mask decode in sampredictor is 0.01seconds!
+2023-06-18 13:00:55,800 - segment_anything.predictor - INFO - the time of mask postprocess in sampredictor is 0.00seconds!
+2023-06-18 13:15:08,162 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-18 13:15:59,422 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-18 13:17:26,618 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-19 01:49:14,191 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-19 01:49:19,814 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-19 01:49:21,411 - segment_anything.predictor - INFO - the output shape of image encoder is {self.features.shape}!
+2023-06-19 01:49:21,411 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 1.57seconds!
+2023-06-19 01:49:21,470 - segment_anything.modeling.sam - INFO - 开始执行 sam 前向函数
+2023-06-19 01:49:22,244 - segment_anything.modeling.sam - INFO - the time of image embedding in sam forward is 0.77seconds!
+2023-06-19 01:49:22,247 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-19 01:49:22,286 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.04seconds!
+2023-06-19 01:49:22,287 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-19 01:49:22,289 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-19 01:49:22,299 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.01seconds!
+2023-06-19 01:49:22,299 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+
+2023-06-19 01:52:23,117 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-19 01:52:25,828 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-19 01:52:27,573 - segment_anything.predictor - INFO - the output shape of image encoder is torch.Size([1, 256, 64, 64])!
+2023-06-19 01:52:27,573 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 1.71seconds!
+2023-06-19 01:52:27,646 - segment_anything.modeling.sam - INFO - 开始执行 sam 前向函数
+2023-06-19 01:52:28,420 - segment_anything.modeling.sam - INFO - the time of image embedding in sam forward is 0.77seconds!
+2023-06-19 01:52:28,423 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-19 01:52:28,460 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.04seconds!
+2023-06-19 01:52:28,461 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-19 01:52:28,463 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-19 01:52:28,472 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.01seconds!
+2023-06-19 01:52:28,472 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-19 02:11:18,013 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-19 02:11:23,141 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-19 02:11:32,805 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-19 02:11:34,118 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-19 02:11:35,508 - segment_anything.predictor - INFO - the output shape of image encoder is {self.features.shape}!
+2023-06-19 02:11:35,508 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 1.36seconds!
+2023-06-19 02:11:35,621 - segment_anything.modeling.sam - INFO - 开始执行 sam 前向函数
+2023-06-19 02:11:35,799 - segment_anything.modeling.sam - INFO - the time of image embedding in sam forward is 0.18seconds!
+2023-06-19 02:11:35,800 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-19 02:11:35,823 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.02seconds!
+2023-06-19 02:11:35,823 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-19 02:11:35,824 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-19 02:11:35,829 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.00seconds!
+2023-06-19 02:11:35,829 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-19 02:28:35,560 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-19 02:28:47,278 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-19 02:28:48,693 - segment_anything.predictor - INFO - the output shape of image encoder is {self.features.shape}!
+2023-06-19 02:28:48,693 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 1.38seconds!
+2023-06-19 02:28:48,744 - segment_anything.modeling.sam - INFO - 开始执行 sam 前向函数
+2023-06-19 02:28:49,173 - segment_anything.modeling.sam - INFO - the time of image embedding in sam forward is 0.43seconds!
+2023-06-19 02:28:49,175 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-19 02:28:49,203 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.03seconds!
+2023-06-19 02:28:49,204 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-19 02:28:49,204 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-19 02:28:49,208 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.00seconds!
+2023-06-19 02:28:49,208 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-19 02:29:36,027 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-19 02:29:37,355 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-19 02:29:38,515 - segment_anything.predictor - INFO - the output shape of image encoder is {self.features.shape}!
+2023-06-19 02:29:38,515 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 1.13seconds!
+2023-06-19 02:29:38,565 - segment_anything.modeling.sam - INFO - 开始执行 sam 前向函数
+2023-06-19 02:29:38,738 - segment_anything.modeling.sam - INFO - the time of image embedding in sam forward is 0.17seconds!
+2023-06-19 02:29:38,740 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-19 02:29:38,761 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.02seconds!
+2023-06-19 02:29:38,761 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-19 02:29:38,762 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-19 02:29:38,766 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.00seconds!
+2023-06-19 02:29:38,766 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-19 02:30:46,483 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-19 02:30:49,536 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-19 02:30:51,124 - segment_anything.predictor - INFO - the output shape of image encoder is {self.features.shape}!
+2023-06-19 02:30:51,125 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 1.54seconds!
+2023-06-19 02:30:51,239 - segment_anything.modeling.sam - INFO - 开始执行 sam 前向函数
+2023-06-19 02:30:52,015 - segment_anything.modeling.sam - INFO - the time of image embedding in sam forward is 0.77seconds!
+2023-06-19 02:30:52,017 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-19 02:30:52,050 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.03seconds!
+2023-06-19 02:30:52,050 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-19 02:30:52,051 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-19 02:30:52,055 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.00seconds!
+2023-06-19 02:30:52,055 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-19 13:13:57,147 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-06-19 13:14:03,401 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-06-19 13:14:09,795 - segment_anything.predictor - INFO - the output shape of image encoder is {self.features.shape}!
+2023-06-19 13:14:09,810 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 6.37seconds!
+2023-06-19 13:14:10,124 - segment_anything.modeling.sam - INFO - 开始执行 sam 前向函数
+2023-06-19 13:14:10,902 - segment_anything.modeling.sam - INFO - the time of image embedding in sam forward is 0.78seconds!
+2023-06-19 13:14:10,904 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-19 13:14:10,937 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.03seconds!
+2023-06-19 13:14:10,938 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-06-19 13:14:10,939 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-06-19 13:14:10,943 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.00seconds!
+2023-06-19 13:14:10,943 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-07-11 09:18:51,220 - segment_anything.modeling.sam - INFO - 这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！
+2023-07-11 09:19:25,698 - segment_anything.predictor - INFO - 这是一条日志消息,记录了发生在predictor类中程序运行信息！
+2023-07-11 09:19:32,151 - segment_anything.predictor - INFO - the output shape of image encoder is {self.features.shape}!
+2023-07-11 09:19:32,167 - segment_anything.predictor - INFO - 2.the time of image embedding in sampredictor is 6.43seconds!
+2023-07-11 09:19:32,481 - segment_anything.modeling.sam - INFO - 开始执行 sam 前向函数
+2023-07-11 09:19:33,254 - segment_anything.modeling.sam - INFO - the time of image embedding in sam forward is 0.77seconds!
+2023-07-11 09:19:33,255 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-07-11 09:19:33,288 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.03seconds!
+2023-07-11 09:19:33,289 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!
+2023-07-11 09:19:33,289 - segment_anything.modeling.sam - INFO - the time of prompt encoder in sam forward is 0.00seconds!
+2023-07-11 09:19:33,296 - segment_anything.modeling.sam - INFO - the time of mask decode in sam forward is 0.01seconds!
+2023-07-11 09:19:33,297 - segment_anything.modeling.sam - INFO - the time of mask postprocess in sam forward is 0.00seconds!

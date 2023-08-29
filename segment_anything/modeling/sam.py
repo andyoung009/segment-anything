@@ -14,6 +14,11 @@ from .image_encoder import ImageEncoderViT
 from .mask_decoder import MaskDecoder
 from .prompt_encoder import PromptEncoder
 
+import time
+import logging
+import pdb
+
+
 
 class Sam(nn.Module):
     mask_threshold: float = 0.0
@@ -45,6 +50,25 @@ class Sam(nn.Module):
         self.mask_decoder = mask_decoder
         self.register_buffer("pixel_mean", torch.Tensor(pixel_mean).view(-1, 1, 1), False)
         self.register_buffer("pixel_std", torch.Tensor(pixel_std).view(-1, 1, 1), False)
+
+        # import pdb; pdb.set_trace()
+        self.logger = logging.getLogger(__name__)
+        self.logger.setLevel(logging.DEBUG)
+
+        # 创建一个文件处理器，将日志写入到指定的文件中
+        file_handler = logging.FileHandler('./time_cal.txt')
+        file_handler.setLevel(logging.INFO)
+
+        # 创建一个格式化器，规定日志文件的格式
+        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        file_handler.setFormatter(formatter)
+
+        # 将处理器添加到日志器中
+        self.logger.addHandler(file_handler)
+
+        # 输出日志消息
+        # import pdb; pdb.set_trace()
+        self.logger.info('这是一条日志消息,显示正在创建sam模型初始化，似乎部分例子的推理阶段没有经过sam类的前向函数！')
 
     @property
     def device(self) -> Any:
@@ -94,20 +118,30 @@ class Sam(nn.Module):
                 shape BxCxHxW, where H=W=256. Can be passed as mask input
                 to subsequent iterations of prediction.
         """
+        self.logger.info('开始执行 sam 前向函数')
+        # pdb.set_trace() 
         input_images = torch.stack([self.preprocess(x["image"]) for x in batched_input], dim=0)
+        time_image_backbone_start = time.time()
         image_embeddings = self.image_encoder(input_images)
-
+        time_image_backbone_end = time.time()
+        print(f"the time of image embedding in sam forward is {time_image_backbone_end-time_image_backbone_start} seconds!")
+        self.logger.info('the time of image embedding in sam forward is {:.2f}seconds!'.format(time_image_backbone_end-time_image_backbone_start))
         outputs = []
         for image_record, curr_embedding in zip(batched_input, image_embeddings):
             if "point_coords" in image_record:
                 points = (image_record["point_coords"], image_record["point_labels"])
             else:
                 points = None
+            time_prompt_backbone_start = time.time()
             sparse_embeddings, dense_embeddings = self.prompt_encoder(
                 points=points,
                 boxes=image_record.get("boxes", None),
                 masks=image_record.get("mask_inputs", None),
             )
+            time_prompt_backbone_end = time.time()
+            print(f"the time of prompt encoder in sam forward is {time_prompt_backbone_end-time_prompt_backbone_start} seconds!")
+            self.logger.info('the time of prompt encoder in sam forward is {:.2f}seconds!'.format(time_prompt_backbone_end-time_prompt_backbone_start))
+            time_mask_decode_start = time.time()
             low_res_masks, iou_predictions = self.mask_decoder(
                 image_embeddings=curr_embedding.unsqueeze(0),
                 image_pe=self.prompt_encoder.get_dense_pe(),
@@ -115,11 +149,19 @@ class Sam(nn.Module):
                 dense_prompt_embeddings=dense_embeddings,
                 multimask_output=multimask_output,
             )
+            time_mask_decode_end = time.time()
+            print(f"the time of mask decode in sam forward is {time_mask_decode_end-time_mask_decode_start} seconds!")
+            self.logger.info('the time of mask decode in sam forward is {:.2f}seconds!'.format(time_mask_decode_end-time_mask_decode_start))
+            time_mask_pp_start = time.time()
             masks = self.postprocess_masks(
                 low_res_masks,
                 input_size=image_record["image"].shape[-2:],
                 original_size=image_record["original_size"],
             )
+            # import pdb; pdb.set_trace()
+            time_mask_pp_end = time.time()
+            print(f"the time of mask postprocess in sam forward is {time_mask_pp_end-time_mask_pp_start} seconds!")
+            self.logger.info('the time of mask postprocess in sam forward is {:.2f}seconds!'.format(time_mask_pp_end-time_mask_pp_start))
             masks = masks > self.mask_threshold
             outputs.append(
                 {

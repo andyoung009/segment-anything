@@ -12,6 +12,7 @@ from typing import Optional, Tuple, Type
 
 from .common import LayerNorm2d, MLPBlock
 
+import time
 
 # This class and its supporting functions below lightly adapted from the ViTDet backbone available at: https://github.com/facebookresearch/detectron2/blob/main/detectron2/modeling/backbone/vit.py # noqa
 class ImageEncoderViT(nn.Module):
@@ -104,6 +105,7 @@ class ImageEncoderViT(nn.Module):
         )
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
+        time_start = time.time()
         x = self.patch_embed(x)
         if self.pos_embed is not None:
             x = x + self.pos_embed
@@ -112,6 +114,10 @@ class ImageEncoderViT(nn.Module):
             x = blk(x)
 
         x = self.neck(x.permute(0, 3, 1, 2))
+        time_end = time.time()
+        time_total = time_end - time_start
+        print(f"1.the time of ImageEncoder forward function is {time_total} seconds!")
+        print(f"1.1.the output shape of ImageEncoder forward function is {x.shape}!")
 
         return x
 
@@ -240,6 +246,9 @@ class Attention(nn.Module):
         return x
 
 
+# 该image_encoder主干网络通过window_partition函数将特征图切分成小的窗口计算注意力机制，并通过window_unpartition复原特征图
+# 然后经过MLPBlock层中的卷积融合局部信息，一方面利用窗口注意力降低了计算复杂度，同时还融合了跨窗口的注意力机制（和SwinTransformer）
+# 做法不同但是理念是一致的。
 def window_partition(x: torch.Tensor, window_size: int) -> Tuple[torch.Tensor, Tuple[int, int]]:
     """
     Partition into non-overlapping windows with padding if needed.

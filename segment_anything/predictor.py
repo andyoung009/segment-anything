@@ -1,3 +1,5 @@
+# The time calculate and logging info module were added in 2023.06.13 by Andyoung009.
+
 # Copyright (c) Meta Platforms, Inc. and affiliates.
 # All rights reserved.
 
@@ -12,7 +14,11 @@ from segment_anything.modeling import Sam
 from typing import Optional, Tuple
 
 from .utils.transforms import ResizeLongestSide
-
+import time
+import logging
+import pdb
+from torch.utils.tensorboard import SummaryWriter
+writer = SummaryWriter()
 
 class SamPredictor:
     def __init__(
@@ -30,6 +36,23 @@ class SamPredictor:
         self.model = sam_model
         self.transform = ResizeLongestSide(sam_model.image_encoder.img_size)
         self.reset_image()
+
+        self.logger = logging.getLogger(__name__)
+        self.logger.setLevel(logging.INFO)
+
+        # 创建一个文件处理器，将日志写入到指定的文件中
+        file_handler = logging.FileHandler('./time_cal.txt')
+        file_handler.setLevel(logging.INFO)
+
+        # 创建一个格式化器，规定日志文件的格式
+        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        file_handler.setFormatter(formatter)
+
+        # 将处理器添加到日志器中
+        self.logger.addHandler(file_handler)
+
+        # 输出日志消息
+        self.logger.info('这是一条日志消息,记录了发生在predictor类中程序运行信息！')
 
     def set_image(
         self,
@@ -57,6 +80,7 @@ class SamPredictor:
         input_image_torch = torch.as_tensor(input_image, device=self.device)
         input_image_torch = input_image_torch.permute(2, 0, 1).contiguous()[None, :, :, :]
 
+        # 注意image_encoder过程不是在predict_torch时与Prompt encoder过程和Mask decoder过程一同执行的，而是在set_image时就已经执行了。
         self.set_torch_image(input_image_torch, image.shape[:2])
 
     @torch.no_grad()
@@ -86,8 +110,16 @@ class SamPredictor:
         self.original_size = original_image_size
         self.input_size = tuple(transformed_image.shape[-2:])
         input_image = self.model.preprocess(transformed_image)
+        # 下文的get_image_embedding()函数将特征值做了返回，可以见Line248-Line259
+        # pdb.set_trace()
+        time_image_backbone_start = time.time()     
         self.features = self.model.image_encoder(input_image)
+        writer.add_graph(self.model.image_encoder, input_image)
+        self.logger.info("the output shape of image encoder is {self.features.shape}!")
         self.is_image_set = True
+        time_image_backbone_end = time.time()
+        print(f"2.the time of image embedding in sampredictor is {time_image_backbone_end-time_image_backbone_start} seconds!")
+        self.logger.info('2.the time of image embedding in sampredictor is {:.2f}seconds!'.format(time_image_backbone_end-time_image_backbone_start))
 
     def predict(
         self,
@@ -217,15 +249,23 @@ class SamPredictor:
             points = (point_coords, point_labels)
         else:
             points = None
-
+        
+        # Prompt encoder过程和Mask decoder过程是在predict_torch时执行的。
         # Embed prompts
+        # pdb.set_trace()
+        time_prompt_backbone_start = time.time()
         sparse_embeddings, dense_embeddings = self.model.prompt_encoder(
             points=points,
             boxes=boxes,
             masks=mask_input,
         )
+        time_prompt_backbone_end = time.time()
+        print(f"the time of prompt encoder in sampredictor is {time_prompt_backbone_end-time_prompt_backbone_start} seconds!")
+        self.logger.info('the time of prompt encoder in sampredictor is {:.2f}seconds!'.format(time_prompt_backbone_end-time_prompt_backbone_start))
 
         # Predict masks
+        # pdb.set_trace()
+        time_mask_decode_start = time.time()
         low_res_masks, iou_predictions = self.model.mask_decoder(
             image_embeddings=self.features,
             image_pe=self.model.prompt_encoder.get_dense_pe(),
@@ -233,10 +273,15 @@ class SamPredictor:
             dense_prompt_embeddings=dense_embeddings,
             multimask_output=multimask_output,
         )
-
+        time_mask_decode_end = time.time()
+        print(f"the time of mask decode in sampredictoris {time_mask_decode_end-time_mask_decode_start} seconds!")
+        self.logger.info('the time of mask decode in sampredictor is {:.2f}seconds!'.format(time_mask_decode_end-time_mask_decode_start))
+        time_mask_pp_start = time.time()
         # Upscale the masks to the original image resolution
         masks = self.model.postprocess_masks(low_res_masks, self.input_size, self.original_size)
-
+        time_mask_pp_end = time.time()
+        print(f"the time of mask postprocess in sampredictor is {time_mask_pp_end-time_mask_pp_start} seconds!")
+        self.logger.info('the time of mask postprocess in sampredictor is {:.2f}seconds!'.format(time_mask_pp_end-time_mask_pp_start))
         if not return_logits:
             masks = masks > self.model.mask_threshold
 

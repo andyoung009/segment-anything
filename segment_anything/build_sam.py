@@ -63,6 +63,7 @@ def _build_sam(
     image_size = 1024
     vit_patch_size = 16
     image_embedding_size = image_size // vit_patch_size
+    # import pdb; pdb.set_trace()
     sam = Sam(
         image_encoder=ImageEncoderViT(
             depth=encoder_depth,

@@ -196,7 +196,6 @@ def build_all_layer_point_grids(
         points_by_layer.append(build_point_grid(n_points))
     return points_by_layer
 
-
 def generate_crop_boxes(
     im_size: Tuple[int, ...], n_layers: int, overlap_ratio: float
 ) -> Tuple[List[List[int]], List[int]]:
